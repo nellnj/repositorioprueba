@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightslategray;
+    
+}
+h1{
+    text-align: center;
+    background-color: lightyellow;
+    box-shadow: 20px;
+}
+label{
+    display: block;
+    color: lightcoral;
+}
+input{
+    width: 30%;
+}
+select{
+    width: 40%;
+}
+textarea{
+    width: 50%;
+    height: 100px;
+}
+
+div{
+    text-align: center;
+}
+fieldset{
+
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightcoral;
+}
+button{
+    background-color: blue;
+     cursor: pointer;
+}
+button:hover{
+    background-color: green;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=deice-width, initial-scale=1.0">
+    <title>mi primer formulario</title>
+    <link rel="stylesheet" href="lab5.css">
+</head>
+
+<body>
+    <h1>formulario laboratorio 5</h1>
+
+    <fieldset>
+        <legend>dalos personales</legend>
+
+
+
+
+        <div>
+            <form action="#" method="post">
+                <label for="nombre">nombre</label>
+                <input type="text" id name="nombre">
+
+                <label for="documento">tipo de documento</label>
+                <select name="documento" id="documento">
+                    <option value="selected" selected disabled>seleccione</option>
+                    <option value="ti">tarjeta de identidad</option>
+                    <option value="cedula de ciudadania">cedula de ciudadania</option>
+                    <option value="permiso de permanencia">permiso de permanencia</option>
+                    <option value="pasaporte">pasaporte</option>
+                </select>
+                <label for="numero de documento">numero de documento</label>
+                <input type="number" id="numero de documento">
+
+                <label for="email">correo electronico</label>
+                <input type="email" id="email" name="email">
+
+                <label for="celular">numero de celular</label>
+                <input type="number" id="celular">
+
+                <label for="date">fecha de nacimiento</label>
+                <input type="date" id="date">
+
+                <label for="city">ciudad de residencia</label>
+                <select name="city" id="city">
+                    <option value="seleccione" selected disabled>seleccione</option>
+                    <option value="sa">santa marta</option>
+                    <option value="ba">barranquilla</option>
+                    <option value="ca">cartagena</option>
+                    <option value="bu">bucaramanga</option>
+                    <option value="san">san andres</option>
+
+                </select>
+
+                </fielset>
+                <label for="mensaje">mensaje</label>
+                <textarea name="mensaje" id="mensaje"> </textarea>
+                <br>
+                contraseña: <br>
+                <input type="password" name="contraseña" required minlength="8" pattern="[A-Z a-z 0-9]+" required maxlength="11">
+                <br>
+                <button type="submit">enviar</button>
+
+
+
+
+            </form>
+        </div>
+</body>
+
+</html>
